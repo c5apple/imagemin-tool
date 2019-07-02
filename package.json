@@ -4,6 +4,7 @@
   "description": "画像を圧縮するツール",
   "main": "index.js",
   "scripts": {
+    "imagemin": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,7 @@
   },
   "homepage": "https://github.com/c5apple/imagemin-tool#readme",
   "devDependencies": {
-    "imagemin": "^7.0.0",
+    "imagemin": "^6.1.0",
     "imagemin-gifsicle": "^6.0.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
