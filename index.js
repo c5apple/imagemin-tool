@@ -7,7 +7,7 @@ const jimp = require('jimp');
 const fs = require('fs');
 
 // 画像圧縮
-const MAX_WIDTH = 975;
+const MAX_WIDTH = (process.argv.length > 2) ? process.argv[2] : 975;
 const QUALITY = 65;
 
 fs.readdir('dist', (err, files) => {
