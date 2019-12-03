@@ -6,7 +6,7 @@
   "scripts": {
     "imagemin": "node index.js",
     "imagemin-l": "node index.js 1200",
-    "imagemin-m": "node index.js 975",
+    "imagemin-m": "node index.js 700",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
